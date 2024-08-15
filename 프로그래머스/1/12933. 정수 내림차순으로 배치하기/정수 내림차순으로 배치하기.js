@@ -5,7 +5,7 @@ function solution(n) {
     const arr = [...String(n)].map(String);
     
     // 2. sort()
-    newArr = arr.sort(function(a, b){
+    const newArr = arr.sort(function(a, b){
         return b - a;
     })
     
