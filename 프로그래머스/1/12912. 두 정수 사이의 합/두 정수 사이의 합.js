@@ -1,6 +1,5 @@
 function solution(a, b) {
     var answer = 0;
-    let arr = [];
 
     if (a < b) {
         for (let i = a; i <= b; i++){
