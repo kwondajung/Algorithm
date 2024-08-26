@@ -2,7 +2,6 @@ function solution(arr) {
     var answer = [];
     
     const min = Math.min(...arr);
-    answer = min;
     
     const newArr = arr.filter(function(num){
         if(num !== min){
